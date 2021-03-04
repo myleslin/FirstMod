@@ -1,0 +1,14 @@
+{
+	"entity.discipline.hitfx":
+	{
+		"category": "entity",
+		"subtitle": "entity.discipline.hitfx",
+		"sounds": 
+		[
+		{ 
+			"name": "tool:entity/discipline/hitfx", 
+			"stream": true
+		}
+		]
+	}
+}
