@@ -37,7 +37,7 @@ public class CommonProxy
 			if (!event.getEntity().getName().equals("TickityT0ck"))
 			{
 				event.setCanceled(true); //cancels dmg evnt
-				//lightning strike on player(?)
+				// lightning strike on player(?)
 			}
 			else
 			{
