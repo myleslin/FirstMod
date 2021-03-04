@@ -37,11 +37,12 @@ public class CommonProxy
 			if (!event.getEntity().getName().equals("TickityT0ck"))
 			{
 				event.setCanceled(true); //cancels dmg evnt
-				//lightning strike on player(?)
+				event.getEntity().playSound(SoundFXHandler.ENTITY_DISCIPLINE_HIT, 1, 1);
+				// lightning strike on player(?)
 			}
 			else
 			{
-			// activate hitFX.ogg
+				event.getEntity().playSound(SoundFXHandler.ENTITY_DISCIPLINE_HIT, 1, 1);
 			}
 	}
 	

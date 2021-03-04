@@ -1,8 +1,14 @@
 {
-	"entity.discipline.hitFX":
+	"entity.discipline.hitfx":
 	{
 		"category": "entity",
-		"subtitle": "entity.discipline.hitFX",
-		"sounds": [{ "name": "tool:entity/centaur/ambient", "stream": true}]
+		"subtitle": "entity.discipline.hitfx",
+		"sounds": 
+		[
+		{ 
+			"name": "tool:entity/discipline/hitfx", 
+			"stream": true
+		}
+		]
 	}
 }
