@@ -1,0 +1,8 @@
+{
+	"entity.discipline.hitFX":
+	{
+		"category": "entity",
+		"subtitle": "entity.discipline.hitFX",
+		"sounds": [{ "name": "tool:entity/centaur/ambient", "stream": true}]
+	}
+}
