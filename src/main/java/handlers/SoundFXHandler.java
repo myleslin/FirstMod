@@ -10,7 +10,7 @@ public class SoundFXHandler
 	
 	public static void registerSounds()
 	{
-		ENTITY_DISCIPLINE_HIT = registerSound("entity.discipline.hitFX");
+		ENTITY_DISCIPLINE_HIT = registerSound("entity.discipline.hitfx");
 	}
 	
 	private static SoundEvent registerSound(String name)
@@ -21,6 +21,4 @@ public class SoundFXHandler
 		ForgeRegistries.SOUND_EVENTS.register(event);
 		return event;
 	}
-	
-
 }
